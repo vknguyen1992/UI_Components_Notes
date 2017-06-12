@@ -35,6 +35,7 @@ layout subView1: top to contentView; leading, trailing to scrollView
 layout subView2: top to subView1.bottom; leading, trailing to scrollView
 layout subView2: top to subView2.bottom; bottom to contentView; leading, trailing to scrollView
 ```
+![alt text](https://github.com/vknguyen1992/UI_Components_Notes/blob/master/IMG_0197.JPG)
 
 ## ViewController
 ```
