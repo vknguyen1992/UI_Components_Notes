@@ -37,29 +37,29 @@ layout subView2: top to subView2.bottom; bottom to contentView; leading, trailin
 ```
 ```
 o
-l: vertial constraint
+I: vertial constraint
 o
 o~o: horizontal constraint
 cntView: content view
 +-----scrollView--o----+
-|                 l    |
+|                 I    |
 | +---o--cntView--o--+ |
-| |   l              | |
+| |   I              | |
 | | +-o------------+ | |
 | | |              | | |
 o~~~o   subView1   o~~~o
 | | |              | | |
 | | +-------o------+ | |
-| |         l        | |
-o~o         l        o~o
+| |         I        | |
+o~o         I        o~o
 | | +-------o------+ | |
 | | |              | | |
 o~~~o   subView3   o~~~o
 | | |              | | |
 | | +-------o------+ | |
-| |         l        | |
+| |         I        | |
 | +---------o----o---+ |
-|                l     |
+|                I     |
 +----------------o-----+
 ```
 
