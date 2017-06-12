@@ -6,7 +6,7 @@ Some UI components notes
 ```
 titleLabel.lineBreakMode = .byTruncatingTail
 titleLabel.adjustsFontSizeToFitWidth = true
-titleLabel.minimumScaleFactor = 8/titleLabel.font.pointSize
+titleLabel.minimumScaleFactor = minimumFontSize/titleLabel.font.pointSize
 ```
 
 ### Adjust view size to wrap around text
@@ -27,4 +27,9 @@ myLabel.setContentCompressionResistancePriority(UILayoutPriorityRequired, for: U
 ```
 func viewDidLayoutSubview() // in UIViewController: called when all current view controller's subviews layouted
 func layoutSubView() // in UIView: called when current view layouted
+```
+
+## UITabBar
+```
+hidesBottomBarWhenPushed
 ```
