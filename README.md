@@ -7,6 +7,7 @@ Some UI components notes
 titleLabel.lineBreakMode = .byTruncatingTail
 titleLabel.adjustsFontSizeToFitWidth = true
 titleLabel.minimumScaleFactor = minimumFontSize/titleLabel.font.pointSize
+titleLabel.numberOfLines = (any value)
 ```
 
 ### Adjust view size to wrap around text
@@ -33,7 +34,7 @@ contentView.addSubview(subView3)
 layout contentView to scrollView by top, leading, bottom, trailing
 layout subView1: top to contentView; leading, trailing to scrollView
 layout subView2: top to subView1.bottom; leading, trailing to scrollView
-layout subView2: top to subView2.bottom; bottom to contentView; leading, trailing to scrollView
+layout subView3: top to subView2.bottom; bottom to contentView; leading, trailing to scrollView
 ```
 ```
 o
