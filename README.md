@@ -72,5 +72,5 @@ func layoutSubView() // in UIView: called when current view layouted
 
 ## UITabBar
 ```
-hidesBottomBarWhenPushed
+pushedViewController.hidesBottomBarWhenPushed = true // hide bottom tab bar when pushing to pushedViewController
 ```
