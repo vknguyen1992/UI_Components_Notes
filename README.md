@@ -1,6 +1,12 @@
 # UI Components Notes
 Some UI components notes
 
+## UIView
+### Force view using left to right language
+```
+[view].semanticContentAttribute = .forceLeftToRight
+```
+
 ## UILabel
 ### Automatically sink font size to a minimum font size
 ```
