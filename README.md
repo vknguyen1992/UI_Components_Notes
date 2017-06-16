@@ -8,6 +8,11 @@ Some UI components notes
 ```
 
 ## UILabel
+### General
+```
+label.baselineAdjustment = .none
+```
+
 ### Automatically sink font size to a minimum font size
 ```
 titleLabel.lineBreakMode = .byTruncatingTail
