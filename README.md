@@ -85,3 +85,7 @@ func layoutSubView() // in UIView: called when current view layouted
 ```
 pushedViewController.hidesBottomBarWhenPushed = true // hide bottom tab bar when pushing to pushedViewController
 ```
+
+## UIButton
+Image and text spacing
+https://stackoverflow.com/questions/4564621/aligning-text-and-image-on-uibutton-with-imageedgeinsets-and-titleedgeinsets
