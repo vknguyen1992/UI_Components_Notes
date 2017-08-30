@@ -74,6 +74,16 @@ o~~~o   subView3   o~~~o
 |                I     |
 +----------------o-----+
 ```
+### UICollectionView
+An important fact to note here:<br />
+This method gets called on User initiated scrolls (i.e a Pan gesture)
+```
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView;
+```
+On the other hand, this one gets called on all manually (programatically) initiated scrolls (like "scrollRectToVisible" or "scrollToItemAtIndexPath")
+```
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
+```
 
 ## ViewController
 ```
@@ -87,5 +97,9 @@ pushedViewController.hidesBottomBarWhenPushed = true // hide bottom tab bar when
 ```
 
 ## UIButton
-Image and text spacing
+Image and text spacing<br />
 https://stackoverflow.com/questions/4564621/aligning-text-and-image-on-uibutton-with-imageedgeinsets-and-titleedgeinsets
+
+# References
+- https://stackoverflow.com/questions/4564621/aligning-text-and-image-on-uibutton-with-imageedgeinsets-and-titleedgeinsets<br />
+- https://stackoverflow.com/questions/14868269/uicollectionview-how-to-detect-when-scrolling-has-stopped
