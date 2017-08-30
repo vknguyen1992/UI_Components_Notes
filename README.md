@@ -46,6 +46,7 @@ layout contentView to scrollView by top, leading, bottom, trailing
 layout subView1: top to contentView; leading, trailing to scrollView
 layout subView2: top to subView1.bottom; leading, trailing to scrollView
 layout subView3: top to subView2.bottom; bottom to contentView; leading, trailing to scrollView
+layout width of the widest subview (ex: subView1) equal to width of scrollView
 ```
 ```
 o
