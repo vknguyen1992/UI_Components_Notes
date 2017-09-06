@@ -1,7 +1,24 @@
 # UI Components Notes
 Some UI components notes
 
+## UIViewController
+### Life Cycle:
+```
+loadView
+viewDidLoad
+viewWillAppear
+viewWillLayoutSubviews
+viewDidLayoutSubviews
+viewDidAppear
+```
+Ref: https://stackoverflow.com/questions/5562938/looking-to-understand-the-ios-uiviewcontroller-lifecycle
+
 ## UIView
+### Life Cycle:
+```
+layoutSubviews: Called when view did layout
+```
+
 ### Force view using left to right language
 ```
 [view].semanticContentAttribute = .forceLeftToRight
@@ -103,4 +120,5 @@ https://stackoverflow.com/questions/4564621/aligning-text-and-image-on-uibutton-
 
 # References
 - https://stackoverflow.com/questions/4564621/aligning-text-and-image-on-uibutton-with-imageedgeinsets-and-titleedgeinsets<br />
-- https://stackoverflow.com/questions/14868269/uicollectionview-how-to-detect-when-scrolling-has-stopped
+- https://stackoverflow.com/questions/14868269/uicollectionview-how-to-detect-when-scrolling-has-stopped<br />
+- https://stackoverflow.com/questions/5562938/looking-to-understand-the-ios-uiviewcontroller-lifecycle
