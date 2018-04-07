@@ -103,6 +103,13 @@ On the other hand, this one gets called on all manually (programatically) initia
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
 ```
 
+### UITableView
+Cell's height is determined by its content
+```
+tableView.rowHeight = UITableViewAutomaticDimension
+tableView.estimatedRowHeight = 140
+```
+
 ## ViewController
 ```
 func viewDidLayoutSubview() // in UIViewController: called when all current view controller's subviews layouted
@@ -118,7 +125,10 @@ pushedViewController.hidesBottomBarWhenPushed = true // hide bottom tab bar when
 Image and text spacing<br />
 https://stackoverflow.com/questions/4564621/aligning-text-and-image-on-uibutton-with-imageedgeinsets-and-titleedgeinsets
 
+## Size Classes & TraitCollection
+
 # References
 - https://stackoverflow.com/questions/4564621/aligning-text-and-image-on-uibutton-with-imageedgeinsets-and-titleedgeinsets<br />
 - https://stackoverflow.com/questions/14868269/uicollectionview-how-to-detect-when-scrolling-has-stopped<br />
 - https://stackoverflow.com/questions/5562938/looking-to-understand-the-ios-uiviewcontroller-lifecycle
+- https://www.raywenderlich.com/129059/self-sizing-table-view-cells
