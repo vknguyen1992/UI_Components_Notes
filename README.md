@@ -130,6 +130,14 @@ https://stackoverflow.com/questions/27923232/how-to-know-that-if-the-only-visibl
 
 ## Size Classes & TraitCollection
 
+## Frame vs Bound
+
+## Anchor Point
+
+## ContentRect
+
+## ContentCenter
+
 # References
 - https://stackoverflow.com/questions/4564621/aligning-text-and-image-on-uibutton-with-imageedgeinsets-and-titleedgeinsets<br />
 - https://stackoverflow.com/questions/14868269/uicollectionview-how-to-detect-when-scrolling-has-stopped<br />
