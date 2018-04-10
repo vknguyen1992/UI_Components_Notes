@@ -125,6 +125,9 @@ pushedViewController.hidesBottomBarWhenPushed = true // hide bottom tab bar when
 Image and text spacing<br />
 https://stackoverflow.com/questions/4564621/aligning-text-and-image-on-uibutton-with-imageedgeinsets-and-titleedgeinsets
 
+Create a shape button<br/>
+https://stackoverflow.com/questions/27923232/how-to-know-that-if-the-only-visible-area-of-a-png-is-touched-in-xcode-swift-o
+
 ## Size Classes & TraitCollection
 
 # References
