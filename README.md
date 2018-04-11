@@ -138,6 +138,10 @@ https://stackoverflow.com/questions/27923232/how-to-know-that-if-the-only-visibl
 
 ## ContentCenter
 
+## Masking
+
+## Rasterize
+
 # References
 - https://stackoverflow.com/questions/4564621/aligning-text-and-image-on-uibutton-with-imageedgeinsets-and-titleedgeinsets<br />
 - https://stackoverflow.com/questions/14868269/uicollectionview-how-to-detect-when-scrolling-has-stopped<br />
